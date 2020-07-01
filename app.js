@@ -14,7 +14,7 @@ if(!fs.existsSync('./cache')){
 }
 
 
-var port = normalizePort(config.getConfig('port') || 80);
+var port = normalizePort(config.getConfig('port') || 443);
 
 var server = http.createServer(app.callback());
 
